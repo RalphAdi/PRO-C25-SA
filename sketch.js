@@ -42,7 +42,7 @@ function draw() {
 
   push();  
   imageMode(CENTER);
-  image(towerImage, 0, 0, 160, 310);
+  image(towerImage,tower.position.x, tower.position.y, 160, 310);
   pop();
 
 
